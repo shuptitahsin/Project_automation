@@ -104,3 +104,18 @@ npm run open:allure
 ## 9. GitHub Repository
 
 Repository: https://github.com/shuptitahsin/Project_automation
+## Part C: API Automation
+
+- Tool: Postman
+- API: JSONPlaceholder
+- Runner: Newman
+
+### API Test Scenarios
+1. GET all users and validate response.
+2. Save a user ID dynamically.
+3. PUT request using the saved ID.
+4. Validate updated user information.
+
+### Run API Tests
+npm install
+npm run api:test
