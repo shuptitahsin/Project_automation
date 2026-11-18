@@ -119,3 +119,28 @@ Repository: https://github.com/shuptitahsin/Project_automation
 ### Run API Tests
 npm install
 npm run api:test
+
+## Complete Test Execution
+
+Run UI and API test suites sequentially:
+
+npm run test:complete
+
+## Individual Test Execution
+
+### UI Tests
+npm run test:q1
+npm run test:q2
+npm run test:q3
+
+### API Tests
+npm run api:test
+
+## Reports
+
+Playwright HTML Report:
+playwright-report/index.html
+
+Allure Report:
+npm run report:allure
+npm run open:allure
