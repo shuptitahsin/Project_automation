@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "type": "module",
- 
 "scripts": {
   "test": "playwright test",
   "test:q1": "playwright test tests/invalidLogin.spec.js",
