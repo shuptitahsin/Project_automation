@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "type": "module",
- "scripts": {
+"scripts": {
   "test": "playwright test",
+  "test:q1": "playwright test tests/invalidLogin.spec.js",
+  "test:q2": "playwright test tests/registerAndCart.spec.js",
   "test:q3": "playwright test tests/Checkout.spec.js",
+  "test:all": "playwright test",
   "report:html": "playwright show-report",
   "report:allure": "allure generate allure-results --clean -o allure-report",
   "open:allure": "allure open allure-report"
